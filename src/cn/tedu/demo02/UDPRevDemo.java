@@ -7,7 +7,7 @@ import java.net.InetAddress;
 import java.net.SocketException;
 
 public class UDPRevDemo {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException  {
 		//创建码头 设置端口
 		DatagramSocket ds = new DatagramSocket(12306);
 		//创建集装箱
